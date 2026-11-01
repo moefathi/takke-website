@@ -1,6 +1,9 @@
 # Takke – Website Design and Development
 In my project, I designed and developed Takke, a multi-page website that offers paid audio engineering courses. The website is built with HTML, CSS, PHP and a MySQL database, and it allows users to create an account, sign in, browse the courses, add them to a cart, and update their profile information.
 
+## Website Link
+http://takke.infinityfreeapp.com/?i=1
+
 ## Website Pages
 In this project, I created several PHP pages, and each one is connected to the database. The home page (`index.php`) contains the instructor section and the courses section, while `signIn.php` and `signUp.php` handle the login and registration. The cart page (`cart.php`) displays the courses that the user added, and the My Courses page (`mycourses.php`) displays the courses that are in the user's cart after checkout.
 
