@@ -1,0 +1,445 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Audiowide", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #F9F7F7;
+  color: #112D4E;
+}
+
+header {
+  background-color: #112D4E;
+  font-weight: 900;
+  color: #F9F7F7;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #112D4E;
+  opacity: 0.9;
+  z-index: 1000;
+  cursor: pointer;
+}
+nav a{
+  color:#F9F7F7;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+
+nav a:hover {
+  background-color: #3F72AF;
+  border-radius: 20px;
+  transition: all 0.7s;
+}
+
+.headerImg {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 60px 0 10px;
+}
+
+header .headerImg img {
+  height: 300px;
+  width: 300px;
+  border: 5px solid #F9F7F7;
+  border-radius: 200px;
+}
+
+.H1H {
+  display: flex;
+  justify-content: center;
+}
+
+.Hparagraph{
+  display: flex;
+  justify-content: center;
+}
+
+.AboutDetails{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 20px;
+}
+.aboutPara {
+  width: 30%;
+  text-align: center;
+}
+
+.imgAbout {
+  height: 300px;
+  width: 300px;
+  border: 3px solid #F9F7F7;
+  border-radius: 150px;
+  box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.25);
+}
+
+.coursesPara {
+  display: flex;
+  justify-content: center;
+}
+
+.coursesPara p a:hover {
+  background-color: #DBE2EF;
+  border-radius: 20px;
+  transition: all 0.7s;
+}
+.coursesPara a{
+  color: #112D4E;
+}
+
+.Htwo {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.courses-co{
+  width: 69%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.courses-co .card img{
+  height: 200px;
+}
+
+.card{
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.25);
+}
+
+.card p{
+    font-family: "Merriweather", serif;
+    font-weight: 800;
+    font-size: 20px;
+    font-style: normal;
+    color:#112D4E;
+}
+
+.card a{
+  background-color: #112D4E;
+}
+
+
+.addC{
+  background-color: #112D4E;
+  color: #DBE2EF;
+  text-align: center;
+  padding: 7px;
+  border: #112D4E;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addC:hover{
+  background-color: #3F72AF;
+  border-radius: 20px;
+  transition: all 0.7s;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #112D4E;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  bottom: 0;
+  width: 100%;
+}
+
+footer h5 {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+footer p {
+  margin-top: 10px;
+}
+
+footer a:hover{
+    background-color: #3F72AF;
+    transition: all 0.7s;
+}
+
+/* Extra small devices  */
+@media screen and (max-width: 600px) {
+  nav {
+      gap: 1px;
+      width: 100%;
+      background-color: #112D4E;
+    }
+  
+    nav a {
+      font-size: 8px;
+      padding: 2px 6px;
+    }
+  
+    nav a:hover {
+      background-color: #3F72AF;
+      border-radius: 5px;
+      transition: all 0.7s;
+    }
+
+    .headerImg {
+      padding: 25px 0 3px;
+    }
+
+    header .headerImg img {
+      height: 100px;
+      width: 100px;
+      border-radius: 50px;
+    }
+    .AboutDetails {
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+    }
+
+    .aboutPara {
+      width: 90%;
+      text-align: center;
+      padding-top: 5px;
+    }
+
+    .imgAbout {
+      height: 100px;
+      width: 100px;
+      border-radius: 50px;
+    }
+
+    .Htwo {
+      margin-top: 15px;
+    }
+    .courses-co{
+      width: 90%;
+      gap: 3px;
+      padding: 7px 0;
+    }
+    .Hparagraph {
+      font-size: 12px;
+    }
+    
+    .aboutPara p {
+      font-size: 10px;
+    }
+}
+
+/* Small devices  */
+@media screen and (min-width: 601px) and (max-width: 767px) {
+  nav {
+      gap: 1px;
+      width: 100%;
+      background-color: #112D4E;
+    }
+  
+    nav a {
+      font-size: 10px;
+      padding: 5px 12px;
+    }
+  
+    nav a:hover {
+      background-color: #3F72AF;
+      border-radius: 5px;
+      transition: all 0.7s;
+    }
+  
+    .headerImg {
+      padding: 33px 0 8px;
+    }
+  
+    header .headerImg img {
+      height: 175px;
+      width: 175px;
+      border-radius: 87.5px;
+    }
+  
+    .AboutDetails {
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+    }
+  
+    .aboutPara {
+      width: 90%;
+      text-align: center;
+      padding-top: 10px;
+    }
+  
+    .imgAbout {
+      height: 175px;
+      width: 175px;
+      border-radius: 87.5px;
+    }
+  
+    .Htwo {
+      margin-top: 25px;
+    }
+  
+    .courses-co {
+      width: 90%;
+      gap: 5px;
+      padding: 15px 0;
+    }
+    .Hparagraph {
+      font-size: 15px;
+    }
+    
+    .aboutPara p {
+      font-size: 13px;
+    }
+}
+
+/* Medium devices  */
+@media  screen and (min-width: 768px) and (max-width: 919px) {
+  nav {
+      gap: 3px;
+      width: 100%;
+      background-color: #112D4E;
+    }
+  
+    nav a {
+      font-size: 13px;
+      padding: 7px 15px;
+    }
+  
+    nav a:hover {
+      background-color: #3F72AF;
+      border-radius: 5px;
+      transition: all 0.7s;
+    }
+  
+    .headerImg {
+      padding: 38px 0 10px;
+    }
+  
+    header .headerImg img {
+      height: 200px;
+      width: 200px;
+      border-radius: 100px;
+    }
+  
+    .AboutDetails {
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+    }
+  
+    .aboutPara {
+      width: 90%;
+      text-align: center;
+      padding-top: 14px;
+    }
+  
+    .imgAbout {
+      height: 200px;
+      width: 200px;
+      border-radius: 100px;
+    }
+  
+    .Htwo {
+      margin-top: 30px;
+    }
+  
+    .courses-co {
+      width: 90%;
+      gap: 5px;
+      padding: 18px 0;
+    }
+}
+
+/* Large devices */
+@media screen and (min-width: 920px) and (max-width: 1199px) {
+  nav {
+      gap: 4px;
+      width: 100%;
+      background-color: #112D4E;
+    }
+  
+    nav a {
+      font-size: 15px;
+      padding: 10px 18px;
+    }
+  
+    nav a:hover {
+      background-color: #3F72AF;
+      border-radius: 5px;
+      transition: all 0.7s;
+    }
+  
+    .headerImg {
+      padding: 50px 0 14px;
+    }
+  
+    header .headerImg img {
+      height: 225px;
+      width: 225px;
+      border-radius: 112.5px;
+    }
+  
+    .AboutDetails {
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+    }
+  
+    .aboutPara {
+      width: 90%;
+      text-align: center;
+      padding-top: 17px;
+    }
+  
+    .imgAbout {
+      height: 225px;
+      width: 225px;
+      border-radius: 112.5px;
+    }
+  
+    .Htwo {
+      margin-top: 34px;
+    }
+  
+    .courses-co {
+      width: 90%;
+      gap: 5px;
+      padding: 20px 0;
+    }
+}
+
+@media screen  and (min-width: 1200px) and (max-width: 1417px) {
+
+    .AboutDetails {
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+    }
+    
+    .aboutPara {
+      width: 90%;
+      text-align: center;
+      padding-top: 17px;
+  }
+}

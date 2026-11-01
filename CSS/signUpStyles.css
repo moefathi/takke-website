@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Audiowide", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #F9F7F7;
+}
+
+body {
+  background-color: #112D4E;
+}
+
+.parentA {
+  display: flex;
+  justify-content: right;
+}
+
+.iconOne {
+  padding: 15px;
+  font-size: x-large;
+}
+
+a:hover {
+  background-color: #3F72AF;
+  border-radius: 10px;
+  transition: all 0.7s;
+}
+
+.headerImg {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+
+.headerImg img {
+  height: 200;
+  max-width: 200px;
+  border: 5px solid #F9F7F7;
+  border-radius: 100px;
+}
+
+.H1H {
+  display: flex;
+  justify-content: center;
+}
+
+.H1H h1 {
+  font-size: x-large;
+}
+
+.Hparagraph {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.signUpForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  padding: 10px;
+  height: 60px;
+  width: 600px;
+  font-size: large;
+  box-shadow: 10px 20px 70px 50px rgba(0, 0, 0, 0.25);
+  border: 3px solid #112D4E;
+  border-radius: 100px;
+  }
+
+.signinLink{
+  display: flex;
+  justify-content: center;
+  color: #DBE2EF;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+form .butt {
+  background-color: #DBE2EF;
+  color: #112D4E;
+  font-weight: bold;
+  font-size: 16px;
+  height: 30px;
+  width: 100%;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+input {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: small;
+  font-style: normal;
+  color: #112D4E;
+}
+
+form .butt:hover {
+  transform: scale(1.1);
+}
+
+form .signinLink:hover {
+  transform: scale(1.1);
+}
+
+/* Extra small devices  */
+@media screen and (max-width: 600px) {
+  .headerImg img {
+    height: 150;
+    max-width: 150px;
+    border-radius: 75px;
+  }
+
+  .Hparagraph p {
+    font-size: 12px;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+
+  b {
+    font-size: 14px;
+  }
+
+  .formP {
+    margin-left: 20px;
+    font-size: 13px;
+  }
+
+.signinLink {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+}
